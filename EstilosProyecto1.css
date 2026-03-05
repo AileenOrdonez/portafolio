@@ -1,0 +1,96 @@
+
+body{
+    background-color: #EDF7F9;
+}
+
+.video-lyric{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.video-lyric video{
+
+    margin: 60px;
+}
+
+
+.foto-doc{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.foto-doc img{
+    margin-top: 60px;
+    margin-left: 60px;
+
+}
+
+.foto-doc video{
+    margin-top: 0px;
+    margin-right: 100px;
+
+}
+
+h1{
+    font-family: "Hammersmith One", sans-serif;;
+    color:#016D77;
+    text-decoration: none;
+    margin-top: 65px;
+    margin-left: 0px;
+    margin-bottom: 5px;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 40px;
+}
+
+h2{
+    font-family: "Hammersmith One", sans-serif;;
+    color:#016D77;
+    text-decoration: none;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 5px;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+}
+
+h3{
+    font-family: "Hammersmith One", sans-serif;;
+    color:#016D77;
+    text-decoration: none;
+    text-align: right;
+    margin-top: 90px;
+    margin-left: 100px;
+    margin-bottom: 5px;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 50px;
+}
+
+p{
+    font-family:"Montserrat", sans-serif;;
+     text-decoration: none;
+    font-size: 15px;
+    color: #30343F;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h4{
+    font-family:"Montserrat", sans-serif;;
+    text-decoration: none;
+    text-align: right;
+    font-size: 15px;
+    color: #30343F;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    font-weight: normal;
+    font-style: normal;
+
+}
