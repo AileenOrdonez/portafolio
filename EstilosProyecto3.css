@@ -62,9 +62,9 @@ h1 {
     font-size: 2.5rem;
 }
 
-h2 {
-    font-family: "Hammersmith One", sans-serif;
-    color: #1B4D5A;
+h2{
+    font-family: "Hammersmith One", sans-serif;;
+    color:#1B4D5A;
     text-decoration: none;
     margin-top: 0rem;
     margin-left: 0rem;
