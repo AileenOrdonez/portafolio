@@ -1,0 +1,246 @@
+.volver {
+    padding: 0.9375rem 2.5rem;
+    margin: 0rem 0rem;
+    background-color: #1B4D5A;
+    border-radius: 0.625rem;
+}
+
+.botHome {
+    display: inline-block;
+}
+
+.home-icon {
+    width: 3.125rem;
+    transition: transform 0.3s ease;
+}
+
+.home-icon:hover {
+    transform: scale(1.1);
+}
+
+.botonApdf {
+    background-color: #EDF7F9;
+    font-family: "Hammersmith One", sans-serif;
+    padding: 0.625rem;
+    margin-top: 6.25rem;
+    margin-left: 6.25rem;
+    display: inline-block;
+    border-radius: 0.625rem;
+}
+
+.botonApdf a {
+    font-family: "Hammersmith One", sans-serif;
+    color: #1B4D5A;
+    text-decoration: none;
+    font-size: 1.25rem;
+}
+
+.botonApdf:hover {
+    background-color: #D8E1E3;
+    transform: scale(1.07);
+}
+
+.botonContacto {
+    background-color: #EDF7F9;
+    font-family: "Hammersmith One", sans-serif;
+    padding: 0.625rem 1.25rem;
+    display: block;
+    width: fit-content;
+    margin: 2.5rem auto 0 auto;
+    border-radius: 0.625rem;
+}
+
+.botonContacto a {
+    font-family: "Hammersmith One", sans-serif;
+    color: #1B4D5A;
+    text-decoration: none;
+    font-size: 1.25rem;
+}
+
+.botonContacto:hover {
+    background-color: #D8E1E3;
+}
+
+body {
+    background-color: #83C4BE;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+}
+
+h1 {
+    font-family: "Hammersmith One", sans-serif;
+    color: #EDF7F9;
+    text-decoration: none;
+    margin-top: 0.3125rem;
+    margin-left: 5.3125rem;
+    margin-bottom: 0.3125rem;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 11.25rem;
+}
+
+h2 {
+    font-family: "Hammersmith One", sans-serif;
+    color: #1B4D5A;
+    text-decoration: none;
+    margin-top: 0.3125rem;
+    margin-left: 6.25rem;
+    margin-bottom: 0.3125rem;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 4rem;
+}
+
+h3 {
+    font-family: "Hammersmith One", sans-serif;
+    background-color: #1B4D5A;
+    color: #EDF7F9;
+    text-decoration: none;
+    text-align: center;
+    margin: 0.9375rem;
+    border-radius: 0.625rem;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2rem;
+}
+
+h4 {
+    font-family: "Hammersmith One", sans-serif;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.875rem;
+    color: #30343F;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    font-weight: normal;
+    font-style: normal;
+}
+
+h5 {
+    font-family: "Hammersmith One", sans-serif;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.875rem;
+    color: #EDF7F9;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    font-weight: normal;
+    font-style: normal;
+}
+
+h6 {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    text-decoration: none;
+    color: #1B4D5A;
+    font-weight: normal;
+    margin-left: 6.25rem;
+    margin-top: 0.625rem;
+    font-size: 1.5625rem;
+}
+
+p {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    text-decoration: none;
+    font-size: 0.9375rem;
+    color: #30343F;
+    margin-top: 0rem;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.container2 p {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    font-size: 0.9375rem;
+    color: #EDF7F9;
+    margin-top: 0rem;
+    font-weight: normal;
+    font-style: normal;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+aside {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+aside img {
+    width: 17.5rem;
+    margin-right: 9.375rem;
+    margin-top: 3.125rem;
+}
+
+.card {
+    margin-top: 0.625rem;
+    display: inline-block;
+    border-radius: 0.625rem;
+    background-color: #EDF7F9;
+}
+
+.card:hover {
+    background-color: #D8E1E3;
+}
+
+.card img {
+    width: 22.4rem;
+    margin: 1.25rem;
+    margin-bottom: 2.1rem;
+    margin-top: 1.5rem;
+}
+
+.card2 {
+    margin-top: 0.625rem;
+    align-self: center;
+    display: inline-block;
+    border-radius: 0.625rem;
+    background-color: #1B4D5A;
+}
+
+.card2:hover {
+    background-color: #102f36;
+}
+
+.card2 img {
+    height: 12.25rem;
+    width: 22.5rem;
+    margin: 1.25rem;
+    margin-bottom: 1.875rem;
+}
+
+.card3 {
+    margin-top: 0.625rem;
+    display: inline-block;
+    border-radius: 0.625rem;
+    background-color: #EDF7F9;
+}
+
+.card3:hover {
+    background-color: #D8E1E3;
+}
+
+.card3 img {
+    width: 21rem;
+    margin: 1.25rem;
+}
+
+.proyectos {
+    display: grid;
+    grid-template-columns: repeat(3, max-content);
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+@media (max-width: 1150px) {
+    .proyectos {
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+}

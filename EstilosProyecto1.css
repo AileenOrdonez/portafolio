@@ -1,0 +1,161 @@
+.volver {
+    padding: 0.9375rem 2.5rem;
+    margin: 0rem 0rem;
+    background-color: #1B4D5A;
+    border-radius: 0.625rem;
+}
+
+.botHome {
+    display: inline-block;
+}
+
+.home-icon {
+    width: 3.125rem;
+    transition: transform 0.3s ease;
+}
+
+.home-icon:hover {
+    transform: scale(1.1);
+}
+
+body {
+    background-color: #EDF7F9;
+}
+
+.video-lyric {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.video-lyric video {
+    margin: 4rem;
+}
+
+.foto-doc {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #1B4D5A;
+    margin: 0%;
+    padding: 0%;
+}
+
+.foto-doc img {
+    margin-top: 4.25rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.foto-doc video {
+    margin-top: 0rem;
+}
+
+h1 {
+    font-family: "Hammersmith One", sans-serif;
+    color: #1B4D5A;
+    text-decoration: none;
+    margin-top: 0.8rem;
+    margin-left: 0rem;
+    margin-bottom: 0.3125rem;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2.5rem;
+}
+
+h5 {
+    background-color: #1B4D5A;
+    border-radius: 5px;
+    display: inline-block;
+    font-family: "Hammersmith One", sans-serif;
+    color: #EDF7F9;
+    text-decoration: none;
+    margin-top: 4.0625rem;
+    margin-left: 0rem;
+    margin-bottom: 0.3125rem;
+    padding: 0.7%;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1.25rem;
+}
+
+h6 {
+    background-color: #EDF7F9;
+    border-radius: 5px;
+    display: inline-block;
+    font-family: "Hammersmith One", sans-serif;
+    color: #1B4D5A;
+    text-decoration: none;
+    margin-top: 4.0625rem;
+    margin-left: 0rem;
+    margin-bottom: 0.3125rem;
+    padding: 0.7%;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1.25rem;
+}
+
+h2 {
+    font-family: "Hammersmith One", sans-serif;
+    color: #1B4D5A;
+    text-decoration: none;
+    margin-top: 0rem;
+    margin-left: 0rem;
+    margin-bottom: 0.3125rem;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1.25rem;
+}
+
+h3 {
+    font-family: "Hammersmith One", sans-serif;
+    color: #EDF7F9;
+    text-decoration: none;
+    margin-top: 0.8rem;
+    margin-left: 0rem;
+    margin-bottom: 0.3125rem;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2.5rem;
+}
+
+
+p {
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    font-size: 0.9375rem;
+    color: #30343F;
+    margin-top: 0rem;
+    margin-bottom: 1.25rem;
+    font-weight: normal;
+    font-style: normal;
+}
+
+h4 {
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    text-align: left;
+    font-size: 0.9375rem;
+    color: #EDF7F9;
+    margin-top: 0rem;
+    margin-bottom: 1.25rem;
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@media (max-width: 768px) {
+
+    .video-lyric,
+    .foto-doc {
+        grid-template-columns: 1fr;
+    }
+
+    .DerVideo,
+    .DerFoto {
+        order: -1;
+    }
+
+    .foto-doc img,
+    .video-lyric video {
+        margin: 0 auto;
+    }
+}
